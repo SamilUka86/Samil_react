@@ -1,0 +1,4 @@
+Use multiple context in react application by creating and consuming them across different components.
+Comp1.jsx creates a context for css styling and provide it to Comp2.jsx(bgcolor,color,font,size)
+Comp2.jsx crate a context for a string value "Student" and provide it to Comp3.jsx
+Comp3.jsx consumes both the context and display message "Welcome student" with provided style and string 
